@@ -128,10 +128,6 @@ TARGET_SCREEN_DENSITY := 440
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
-# Enable System As Root even for non-A/B from P onwards
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
-
 # EXFAT
 TARGET_EXFAT_DRIVER := exfat
 
@@ -218,10 +214,6 @@ TARGET_RECOVERY_FSTAB := $(DT_PATH)/rootdir/etc/fstab_A.qcom
 else
 TARGET_RECOVERY_FSTAB := $(DT_PATH)/rootdir/etc/fstab.qcom
 endif
-
-# Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_lavender
-TARGET_RELEASETOOLS_EXTENSIONS := $(DT_PATH)
 
 # Renderscript
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so

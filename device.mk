@@ -427,10 +427,6 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
-# Recovery
-PRODUCT_PACKAGES += \
-    librecovery_updater_lavender
-
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
