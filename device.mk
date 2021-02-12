@@ -549,6 +549,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # xyz-Zone
 PRODUCT_PACKAGES += \
    xRage
@@ -560,7 +564,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     xyz_xyzuan.android.hardware.light@2.0-service.xiaomi_lavender \
     xyz_xyzuan.android.hardware.power@1.3-service.xiaomi_lavender-libperfmgr \
-    xyz_xyzuan.android.hardware.usb@1.0-service.xiaomi_lavender \
     xyz_xyzuan.android.hardware.biometrics.fingerprint@2.1-service.xiaomi_lavender
 
 PRODUCT_COPY_FILES += \
