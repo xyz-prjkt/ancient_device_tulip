@@ -567,5 +567,5 @@ PRODUCT_PACKAGES += \
     xyz_xyzuan.android.hardware.biometrics.fingerprint@2.1-service.xiaomi_lavender
 
 PRODUCT_COPY_FILES += \
-    $(DT_PATH)/xyz-power/lavender_powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    $(DT_PATH)/xyz-power/tulip_powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
     
