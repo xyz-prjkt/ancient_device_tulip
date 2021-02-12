@@ -1,24 +1,27 @@
 ## Copyright (C) 2020-2021 a xyzprjkt LLC
 
-![Xiaomi Redmi Note 7](https://raw.githubusercontent.com/xyz-prjkt/ancient_device_lavender/11/xyz-prebuilts/lavender.png)
+![Xiaomi Redmi Note 6](https://raw.githubusercontent.com/xyz-prjkt/xyz_assets/main/dt_tulip.png)
 
-Redmi Note 7 (codenamed _"lavender"_) adalah smartphone kelas menengah kelas atas dari Xiaomi.
+Redmi Note 6 (codenamed _"tulip"_) adalah smartphone kelas menengah kelas atas dari Xiaomi.
 
-Xiaomi Redmi Note 7 diumumkan dan dirilis pada Januari 2019.
+Xiaomi Redmi Note 7 diumumkan dan dirilis pada September 2018.
 
 ## Spesifikasi
 
-| Device       | Xiaomi Redmi Note 7                             |
-| -----------: | :---------------------------------------------- |
-| SoC          | Qualcomm SDM660 Snapdragon 660                  |
-| CPU          | 8x Qualcomm® Kryo™ 260 up to 2.2GHz             |
-| GPU          | Adreno 512                                      |
-| Memory       | 3GB / 4GB / 6GM RAM (LPDDR4X)                   |
-| Shipped Android version | 9.0.0                                |
-| Storage      | 32GB / 64GB eMMC 5.1 flash storage              |
-| Battery      | Non-removable Li-Po 4000 mAh                    |
-| Dimensions   | 159.21 x 75.21 x 8.1 mm                         |
-| Display      | 2340 x 1080 (19.5:9), 6.3  inch                 |
-| Rear camera 1 | 48MP, 1.6-micron pixels, f/1.8 Dual LED flash  |
-| Rear camera 2 | 5MP, 1.6-micron pixels, f/1.8                  |
-| Front camera  | 13MP                                           |
+
+| Device                  | Xiaomi Redmi Note 6 Pro                                     |
+| ----------------------- | :---------------------------------------------------------- |
+| SoC                     | Qualcomm SDM660 Snapdragon 636                              |
+| CPU                     | 8x Qualcomm® Kryo™ 260 CPU                                  |
+| GPU                     | Adreno 509                                                  |
+| Memory                  | 4GB / 6GB RAM (LPDDR4X)                                     |
+| Shipped Android version | 8.1.0                                                       |
+| Storage                 | 64GB eMMC 5.1 flash storage                                 |
+| MicroSD                 | Up to 256 GB                                                |
+| Battery                 | Non-removable Li-Po 4000 mAh                                |
+| Dimensions              | 157.9 x 76.4 x 8.3 mm                                       |
+| Display                 | 2280 x 1080 (19:9), 6.26 inch                               |
+| Rear camera 1           | 12 MP, f/1.9, 1/2.55", 1.4µm, dual pixel PDAF               |
+| Rear camera 2           | 5 MP, f/2.2, 1.12µm, depth sensor                           |
+| Front camera 1          | 20 MP, f/2.0, 0.9µm                                         |
+| Front camera 2          | 2 MP, f/2.2, 1.75µm, depth sensor                           |
