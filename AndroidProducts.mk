@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_lavender.mk
+    $(LOCAL_DIR)/ancient_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-	ancient_lavender-eng \
-    ancient_lavender-userdebug \
-    ancient_lavender-user
+	ancient_tulip-eng \
+    ancient_tulip-userdebug \
+    ancient_tulip-user

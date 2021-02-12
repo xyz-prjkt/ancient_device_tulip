@@ -24,7 +24,7 @@
 #
 
 # Device Tree Path
-DT_PATH := device/xiaomi/twolip
+DT_PATH := device/xiaomi/tulip
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := tulip,twolip
