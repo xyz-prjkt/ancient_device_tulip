@@ -27,10 +27,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/lavender/device.mk)
+$(call inherit-product, device/xiaomi/tulip/device.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
+$(call inherit-product, vendor/xiaomi/tulip/tulip-vendor.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
@@ -40,22 +40,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Ancient Identifier.
 ANCIENT_OFFICIAL := true
-ANCIENT_GAPPS := true
 TARGET_USES_BLUR := true
 
 # Device Identifier.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="lavender" \
-    PRODUCT_NAME="lavender"
+    TARGET_DEVICE="tulip" \
+    PRODUCT_NAME="tulip"
 
 # Prod Identifier.
-PRODUCT_NAME := ancient_lavender
+PRODUCT_NAME := ancient_tulip
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
-PRODUCT_DEVICE := lavender
+PRODUCT_DEVICE := tulip
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 7
-TARGET_VENDOR_PRODUCT_NAME := lavender
+PRODUCT_MODEL := Redmi Note 6
+TARGET_VENDOR_PRODUCT_NAME := tulip
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Fingerprint
